@@ -1,0 +1,81 @@
+///////////////////////////////////////////////////////////  Main index.html ////////////////////////////////////////////////////////
+
+////////////// banner main (index.html) ///////////////
+
+div {
+    .bannerSize {
+        width: 100%;
+        border-bottom: black solid 2px;
+        border-top: 1px black solid;
+    }
+}
+
+
+//////////////////////// CONTENEDOR MAIN ////////////////////////////////
+.principalBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imagenes/charcol\ black\ wallpaper\ background\ -\ Hecho\ con\ PosterMyWall.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /////////////////// titulo principal /////////////////////////////
+
+    .tituloIndexBox {
+        display: flex;
+        justify-content: center;
+
+
+        .title {
+            margin-top: 5vh;
+            text-align: center;
+            color: #c4c8c5;
+            font-weight: 800;
+            font-style: italic;
+            width: fit-content;
+        }
+
+    }
+
+    /* imagenes de index.html */
+    .imagenes {
+        height: 30vh;
+        border: #93949334 0.5px;
+        border-radius: 10px;
+    }
+
+    /* botones del index */
+    .botonMain {
+        background-color: #c4c8c563;
+        border: #3a3c3b89 1px solid;
+    }
+
+    .botonMain:hover {
+        background-color: #dededebc;
+        border: rgb(0, 0, 0) 0.5px solid;
+        font-weight: 700;
+        transform: scale(1.1, 1.1);
+    }
+
+    /* card con imagen y boton url */
+
+    .cardBox {
+        margin: 15px 15px 15px 15px;
+        padding: 10px;
+        background-color: #74747463;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: fit-content;
+    }
+
+    .botonMain {
+        margin: 5px;
+
+    }
+
+}

@@ -39,6 +39,57 @@ nav div div .nav-link:hover {
   background-color: #ffffff8b;
   color: black; }
 
+div .bannerSize {
+  width: 100%;
+  border-bottom: black solid 2px;
+  border-top: 1px black solid; }
+
+.principalBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../imagenes/charcol black wallpaper background - Hecho con PosterMyWall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* imagenes de index.html */
+  /* botones del index */
+  /* card con imagen y boton url */ }
+  .principalBox .tituloIndexBox {
+    display: flex;
+    justify-content: center; }
+    .principalBox .tituloIndexBox .title {
+      margin-top: 5vh;
+      text-align: center;
+      color: #c4c8c5;
+      font-weight: 800;
+      font-style: italic;
+      width: fit-content; }
+  .principalBox .imagenes {
+    height: 30vh;
+    border: #93949334 0.5px;
+    border-radius: 10px; }
+  .principalBox .botonMain {
+    background-color: #c4c8c563;
+    border: #3a3c3b89 1px solid; }
+  .principalBox .botonMain:hover {
+    background-color: #dededebc;
+    border: black 0.5px solid;
+    font-weight: 700;
+    transform: scale(1.1, 1.1); }
+  .principalBox .cardBox {
+    margin: 15px 15px 15px 15px;
+    padding: 10px;
+    background-color: #74747463;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content; }
+  .principalBox .botonMain {
+    margin: 5px; }
+
 /* ---------------------------------- footer (all html) ----------------------------------------  */
 footer {
   background-image: linear-gradient(to right, #000000, #303030, #4e4e4e);
@@ -8459,3 +8510,34 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
+
+@media (min-width: 767px) {
+  .principalBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url("../imagenes/https___www.lifeofpix.com_wp-content_uploads_2017_11_edited-32-of-66.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    .principalBox .tituloIndexBox {
+      display: flex;
+      width: 100%;
+      text-align: center;
+      align-items: center;
+      font-size: medium; }
+      .principalBox .tituloIndexBox .title {
+        color: black; } }
+
+/*-------------------------------- media query para laptop L (1440px) ------------------------------------------------ */
+@media (min-width: 1439px) {
+  /* ----------------------------------inicio de index.html (1440px)----------------------------------------------- */
+  .principalBox {
+    display: flex;
+    padding: 2rem 8rem 3rem 8rem;
+    justify-content: space-between; }
+    .principalBox .cardBox {
+      margin: 4rem; }
+    .principalBox .tituloIndexBox .title {
+      color: black;
+      font-weight: 900; } }

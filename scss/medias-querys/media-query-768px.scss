@@ -1,0 +1,31 @@
+//////////////////////////////////////////// media query para tablets (768px) ///////////////////////////////////////////////////////
+
+@media (min-width:767px) {
+
+    ///////////////////////////////////////////// inicia index html (768px) /////////////////////////////////////////////
+
+    .principalBox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-image: url('../imagenes/https___www.lifeofpix.com_wp-content_uploads_2017_11_edited-32-of-66.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+
+        .tituloIndexBox {
+            display: flex;
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            font-size: medium;
+
+
+            .title {
+                color: black;
+            }
+        }
+    }
+
+}
