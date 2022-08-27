@@ -2,7 +2,7 @@
 
 footer {
     ///// color del footer //////
-    background-image: linear-gradient(to right, #000000, #303030, #4e4e4e);
+    background:$backgroundGradient;
     padding-bottom: 1rem;
 
     .menuFooter {

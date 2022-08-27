@@ -1,6 +1,9 @@
 //reseteo css
 @import './base/reset';
 
+//variables
+@import './base/variables';
+
 //header (all htmls)
 @import './headers/headers';
 
@@ -9,18 +12,6 @@
 
 //footer (all htmls)
 @import './footers/footer';
-
-////////estilos de bootstrap//////////////
-
-$gradient: linear-gradient(90deg, #000000, #303030, #4e4e4e);
-
-$bg-primary: $gradient;
-
-$enable-gradients: true;
-
-@import '../node_modules/bootstrap/scss/bootstrap';
-
-@import "../node_modules/bootstrap/scss/utilities";
 
 ////////////////////////////////////////////////// MEDIAS QUERYS ////////////////////////////////////////////////////////////////
 
