@@ -20,7 +20,7 @@ nav {
     align-items: flex-end; }
   nav div div .active {
     color: rgba(255, 253, 253, 0.746) !important;
-    font-weight: 700;
+    font-weight: 900;
     font-size: large; }
     nav div div .active:hover {
       color: black !important;
@@ -44,13 +44,13 @@ div .bannerSize {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("../imagenes/charcol black wallpaper background - Hecho con PosterMyWall.jpg");
+  background-image: url("../imagenes/charcol-black-wallpaper-background-Hecho-con-PosterMyWall.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
-  .principalBox .tituloIndexBox {
+  .principalBox .titulos-justify {
     display: flex;
     justify-content: center; }
-    .principalBox .tituloIndexBox .title {
+    .principalBox .titulos-justify .title {
       margin-top: 5vh;
       text-align: center;
       color: #c4c8c5;
@@ -60,19 +60,21 @@ div .bannerSize {
   .principalBox .imagenes {
     height: 30vh;
     border: #93949334 0.5px;
-    border-radius: 10px; }
+    border-radius: 10px;
+    margin-bottom: 10px; }
   .principalBox .botonMain {
     background-color: #c4c8c563;
     border: #3a3c3b89 1px solid; }
     .principalBox .botonMain:hover {
-      background-color: #dededebc;
+      background-color: #ffffff51;
       border: black 0.5px solid;
       font-weight: 700;
-      transform: scale(1.1, 1.1); }
+      transform: scale(1.05, 1.1); }
   .principalBox .cardBox {
     margin: 15px 15px 15px 15px;
     padding: 10px;
-    background-color: #74747463;
+    background-image: linear-gradient(to right, #000000, #303030, #4e4e4e);
+    border: #00000044 0.5px solid;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
